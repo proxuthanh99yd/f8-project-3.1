@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-size: 62.5%;
+}
+/* [============================ START COMMON ============================] */
+/* [============================ color ============================] */
+:root {
+    --text-color-white: #fff;
+    --primary-color-black: #152427;
+    --text-color-black_gray: #575d5e;
+    --text-color-light_gray: #7d8188;
+    --text-color-light_white: #e7f9f9;
+    --secondary-color-gray: #6a8383;
+    --bg-cream-green: #4dbb9a;
+    --secondary-color-light_green: #e2eddf;
+    --primary-black_green: #143c3c;
+}
+/* [============================ font-weight ============================] */
+.weight-s {
+    font-weight: 400;
+}
+.weight-m {
+    font-weight: 500;
+}
+.weight-l {
+    font-weight: 600;
+}
+.weight-xxl {
+    font-weight: 800;
+}
+/* [============================ font-size ============================] */
+
+h1.heading {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    color: var(--primary-color-black);
+}
+h2.heading {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    color: var(--primary-color-black);
+}
+h3.heading {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+    color: var(--primary-color-black);
+}
+
+p.sub-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--primary-color-black);
+}
+
+p.content.--s {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: var(--text-color-light_gray);
+}
+p.content.--m {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: var(--text-color-light_gray);
+}
+p.content.--l {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: var(--text-color-light_gray);
+}
+
+.btn-m {
+    width: 173px;
+    height: 57px;
+    line-height: 57px;
+    border: 1.5px solid #143c3c;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    background: var(--primary-black_green);
+    color: var(--text-color-white);
+    transition: 0.3s ease;
+}
+
+.btn-m:hover {
+    background: var(--secondary-color-light_green);
+    color: var(--primary-color-black);
+}
+
+.btn-s {
+    width: 107px;
+    height: 26px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 26px;
+    text-align: center;
+    background: var(--secondary-color-light_green);
+    color: var(--primary-color-black);
+    transition: 0.3s ease;
+}
+
+.btn-s:hover {
+    background: var(--primary-black_green);
+    color: var(--text-color-white);
+}
+
+/* [============================ Display ============================] */
+
+.container {
+    max-width: 1140px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* [============================ END COMMON ============================] */
+
+/* [============================ TABLET ============================] */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* [============================ MOBILE ============================] */
+@media (max-width: 767px) {
+}
