@@ -9,11 +9,160 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Public+Sans:wght@500;800&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./assets/css/styles.css" />
         <title>Document</title>
     </head>
-    <body></body>
+    <body>
+        <header class="header">
+            <div class="container row header-navigation">
+                <div class="header-navigation__logo">
+                    <img
+                        src="./assets/images/logo.png"
+                        alt="Modulars"
+                        class="header-logo__img"
+                    />
+                </div>
+
+                <nav class="header-navigation__menu">
+                    <ul class="menu-inner row">
+                        <li class="menu-item">
+                            <a href="#!" class="menu-link active">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#!" class="menu-link">About</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#!" class="menu-link">Blog</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#!" class="menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-navigation__sign">
+                    <a href="#!" class="sign-btn btn-m">Sign Up</a>
+                </div>
+                <label class="mobile-menu__btn" for="mobile-menu"
+                    ><img src="./assets/images/menu-btn.svg" alt=""
+                /></label>
+                <input
+                    type="checkbox"
+                    class="mobile-menu-click"
+                    id="mobile-menu"
+                    hidden
+                />
+                <label for="mobile-menu" class="over-lay"></label>
+                <div class="mobile-menu">
+                    <label for="mobile-menu" class="close-btn">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"
+                        >
+                            <path
+                                fill="currentColor"
+                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                            />
+                        </svg>
+                    </label>
+                    <ul class="menu-inner">
+                        <li class="menu-item">
+                            <a href="#!" class="menu-link">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#!" class="menu-link">About</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#!" class="menu-link">Blog</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#!" class="menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-body container row">
+                <div class="header-body__left">
+                    <h1 class="header-body__heading heading">
+                        We’re a creative design agency.
+                    </h1>
+                    <p class="header-body__content content --l">
+                        A brilliant, modular agency template for startup’s build
+                        yours toady.
+                    </p>
+                    <div class="header-body__action row">
+                        <a href="#!" class="header-body__btn btn-m"
+                            >Get in touch</a
+                        >
+                        <a href="#!" class="header-body__link row">
+                            <div class="header-body__half-circle-border"></div>
+                            <svg
+                                class="header-body__play-btn"
+                                width="44"
+                                height="43"
+                                viewBox="0 0 44 43"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <ellipse
+                                    cx="22"
+                                    cy="21.5"
+                                    rx="22"
+                                    ry="21.5"
+                                    fill="currentColor"
+                                />
+                                <path
+                                    d="M26.4898 20.2259C27.1511 20.62 27.1377 21.5821 26.4658 21.9577L20.4968 25.2945C19.8249 25.6702 18.9983 25.1775 19.009 24.4078L19.1037 17.5701C19.1144 16.8004 19.9543 16.3309 20.6156 16.725L26.4898 20.2259Z"
+                                    fill="#FEF6FB"
+                                />
+                            </svg>
+                            <span class="header-body__watch-btn"
+                                >Watch Video</span
+                            >
+                        </a>
+                    </div>
+                </div>
+                <div class="header-body__right">
+                    <img
+                        src="./assets/images/header-img-1.jpg"
+                        alt=""
+                        class="header-body__img"
+                    />
+                    <div class="header-body__bg"></div>
+                    <img
+                        src="./assets/images/header-img-2.jpg"
+                        alt=""
+                        class="header-body__img"
+                    />
+                    <img
+                        src="./assets/images/header-img-3.jpg"
+                        alt=""
+                        class="header-body__img"
+                    />
+                    <img
+                        src="./assets/images/avstract.png"
+                        alt=""
+                        class="decor-img-first"
+                    />
+                    <img
+                        src="./assets/images/Vector.png"
+                        alt=""
+                        class="decor-img-last"
+                    />
+                    <img
+                        src="./assets/images/avstract.png"
+                        alt=""
+                        class="decor-img-first-1"
+                    />
+                    <img
+                        src="./assets/images/Vector.png"
+                        alt=""
+                        class="decor-img-last-1"
+                    />
+                </div>
+            </div>
+        </header>
+    </body>
 </html>
